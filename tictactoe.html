@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="tictactoe.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form name="userform">
+        <p>Settings</p>
+        <label for="username1">User 1 name:</label>
+        <input type="text" id="username1" value="user1" required />
+        <label for="user1choice">Choice </label>
+        <select id="user1choice" name="user1choice">
+          <option>Circle</option>
+          <option>Cross</option>
+        </select>
+        <label for="username2"> User 2 name:</label>
+        <input type="text" id="username2" value="user2" required />
+        <label for="user2choice">Choice</label>
+        <select id="user2choice" name="user2choice">
+          <option>Cross</option>
+          <option>Circle</option>
+        </select>
+
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
